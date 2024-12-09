@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détection de Malaria</title>
+</head>
+<body>
+    <h1>Détection de Malaria</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <label for="file">Télécharger une image de cellule :</label><br><br>
+        <input type="file" name="file" id="file" accept="image/*"><br><br>
+        <button type="submit">Prédire</button>
+    </form>
+</body>
+</html>
