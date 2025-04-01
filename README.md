@@ -64,19 +64,6 @@ Cela exposera l'application Flask sur le port 5000 de votre machine.
 Structure du projet
 Voici la structure du répertoire du projet :
 
-php
-Copier le code
-.
-├── app.py                # Code de l'application Flask
-├── cnn_model.keras       # Modèle CNN sauvegardé
-├── dl_preprocess_modified.ipynb  # Notebook pour la prétraitement des données
-├── Dockerfile            # Fichier de configuration Docker
-├── requirements.txt      # Liste des dépendances Python
-├── .venv                 # Environnement virtuel Python
-├── static                # Dossier pour les fichiers statiques (images, etc.)
-├── templates             # Dossier pour les templates HTML
-└── .ipynb_checkpoints    # Dossier pour les checkpoints de Jupyter
-Fonctionnalités de l'application Flask
 Page d'accueil : Affiche une interface simple où vous pouvez télécharger une image à classer.
 Classification d'image : Le modèle CNN classifie l'image téléchargée et affiche le résultat.
 Dépannage
